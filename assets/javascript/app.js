@@ -113,7 +113,7 @@ $(document).ready(function() {
       console.log(childSnapshot.val().firstTrain);
       console.log(childSnapshot.val().frequency);
 
-      // full list of items to the well and adding it appending to the DOM via JQuery
+      // full list of items to the well and adding it appending using jQuery
       $(".table tbody").append(
         "<tr><td id='train-name-display'> " +
           childSnapshot.val().trainName +
